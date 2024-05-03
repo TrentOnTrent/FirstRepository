@@ -1,6 +1,6 @@
 ## T1A1 Workbook
 
-Q1. ***Idenfity*** and ***explain*** common and important components and concepts of web development markup languages.
+Q1. ***Identify*** and ***explain*** common and important components and concepts of web development markup languages.
 
 A: Answer goes here.
 
