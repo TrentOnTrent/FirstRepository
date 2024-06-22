@@ -2,7 +2,7 @@
 
 Q1. ***Identify*** and ***explain*** common and important components and concepts of web development markup languages.
 
-A: Web development markup languages (such as HTML, Markdown and XML, with others available) are utilised to define how the layout and presentation of elements of a page should appear on a website. They are different from programming languages in that they focus primarily on the presentation and structure of content, rather than being utilised to create functional and dynamic web applications. 
+A: Web development markup languages (such as HTML, Markdown and XML, with others available) are utilised to define how the layout and presentation of elements of a page should appear on a website. HTML specifically refers to meaning and structure of web content [according to Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML). Markup languages are different from programming languages in that they focus primarily on the presentation and structure of content, rather than being utilised to create functional and dynamic web applications. 
 
 Q2. **Define** the features of the following technologies that are essential in terms of the development of the internet:
  - packets 
@@ -10,14 +10,14 @@ Q2. **Define** the features of the following technologies that are essential in 
  - routers and routing 
  - domains and DNS 
 
-A: Packets are a small containers of data which are sent through a network, and when collected by the recipient, are then collected, placed in the correct order, and then assembled into the original file (such as an image, for example). 
+A: Packets are small containers of data sent through a network. As described by [Cisco in their Networking Basics article](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html#~switches), upon reception by the recipient, these packets are collected, placed in the correct order, and then assembled into the original file, such as an image (referenced from Cisco's Networking Basics).
 
-IP addresses are a unique numerical identifier for every network or device that connects to the internet. These work as a way to identify where data is to be 
+According to the American Registry for Internet Numbers (ARIN), IP addresses are a unique numerical identifier for every network or device that connects to the internet. These work as a way to identify where data is to be 
 sent (in packets) and allows two devices to communicate with each other. Typically, they are expressed either in IPv4 or IPv6 format. The main difference between the two is the use of 32-bit for IPv4 and 128-bit for IPv6, allowing more options availble than the 4.3 billion IP addresses available only under IPv4.  
 
-Routers are devices that allow multiple devices to interact with each other, utilising an IP address in order to collect data sent to the IP address. Routing is the actual process of how data and packets travel from their origin to their destination, as the routers decides which network and which routers to travel data through.  
+As described by TechTarget in their [routers definition](https://www.techtarget.com/searchnetworking/definition/router), routers are devices that allow multiple devices to interact with each other, utilising an IP address in order to collect data sent to the IP address. Routing is the actual process of how data and packets travel from their origin to their destination, as the routers decides which network and which routers to travel data through.  
 
-A domain name is a string of text that corresponds to a certain IP address, typically used in order to load a website/data from a server. DNS is Domain Name System, which is the system that is utilised that turns an IP address into a website name/domain name and vice versa. 
+The International Corporation for Assigned Names and Numbers describes a domain name as a string of text that corresponds to a certain IP address, typically used in order to load a website/data from a server. DNS is Domain Name System, which is the system that is utilised that turns an IP address into a website name/domain name and vice versa. 
 
 **Explain** how each technology has contributed to the development of the internet.
 
@@ -28,9 +28,9 @@ Q3. **Define** the features of the following technologies that are essential in 
  - HTTP and HTTPS
  - web browsers (requests, rendering and developer tools)
 
- A: TCP (Transmission Control Protocol) is the standard that allows programs and devices to exchange packets and messages over a network. TCP establishes a connection between the origin and destination of data and ensures that the connection remains while it begins breaking down large amounts of data into smaller packets, ensuring data integrity. 
+ A: TCP (Transmission Control Protocol) is the standard that allows programs and devices to exchange packets and messages over a network. TCP establishes a connection between the origin and destination of data and ensures that the connection remains while it begins breaking down large amounts of data into smaller packets, ensuring data integrity. This results in a reliable, connection-orientated, byte-streamed protocol, according to [Cisco's Understanding TCP/IP article](https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/linked/tcpip.htm#:~:text=applications%20is%20redundant.-,Transmission%20Control%20Protocol,oriented%2C%20byte%2Dstream%20protocol.)
 
- HTTP (Hypertext Transfer Protocol) is a set of rules that is utilised when visiting a website. When visiting a website, the web server hosting that website will send different types of HTTP responses in the forms of three-digit numerical codes, which allow the website to confirm or inform the browser whether the request for data has been completed. HTTPS is similar, but creates an encrypted connection between the host and the browser before transferring data.
+ Mozilla's [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP) describes HTTP (Hypertext Transfer Protocol) as a set of rules that is utilised when visiting a website. When visiting a website, the web server hosting that website will send different types of HTTP responses in the forms of three-digit numerical codes, which allow the website to confirm or inform the browser whether the request for data has been completed. HTTPS is similar, but creates an encrypted connection between the host and the browser before transferring data.
 
 Browsers are, ultimately, the programs that are utilised in order to handle web requests, sending and receiving (getting) HTTP requests and turning packets into user-friendly websites and data. Web browsers also offer developer tools, which are easily viewable tools that show to the user how content is visualised and how this is being handled by the browser itself.
 
